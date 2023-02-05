@@ -250,9 +250,6 @@ Style/IpAddresses:
 Style/KeywordParametersOrder:
   Enabled: true
 
-Style/MethodCallWithArgsParentheses:
-  Enabled: true
-
 Style/MultilineMethodSignature:
   Enabled: true
 
