@@ -1,5 +1,6 @@
 FactoryBot.define do
   factory :account do
-    # Empty for now
+    name { Faker::Name.name }
+    email { Faker::Internet.email(domain: "example") }
   end
 end
