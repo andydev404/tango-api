@@ -11,5 +11,6 @@ class Shop < ApplicationRecord
   validates :slug, length: {maximum: 50}
   validates :description, length: {maximum: 200}
 
+  has_one_attached :logo
   belongs_to :account
 end

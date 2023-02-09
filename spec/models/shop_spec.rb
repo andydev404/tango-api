@@ -14,4 +14,5 @@ RSpec.describe Shop do
   it { is_expected.to validate_presence_of(:whatsapp) }
 
   it { is_expected.to belong_to(:account) }
+  it { is_expected.to have_one_attached(:logo) }
 end

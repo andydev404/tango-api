@@ -246,6 +246,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  activestorage
   bootsnap
   debug
   devise
