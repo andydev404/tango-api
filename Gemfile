@@ -11,6 +11,7 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 gem "devise"
 gem "devise_token_auth"
 gem "activestorage"
+gem "simple_command"
 
 group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw]

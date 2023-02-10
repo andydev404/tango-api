@@ -2,8 +2,9 @@ FactoryBot.define do
   factory :shop do
     account
     name { Faker::Company.name }
-    slug { parameterize(Faker::Company.name) }
+    slug { Faker::Internet.slug(glue: "-") }
     address { Faker::Address.full_address }
+    description { Faker::Lorem.paragraph }
     instagram { "@tango" }
     facebook { "tango" }
     currency { Faker::Currency.code }
