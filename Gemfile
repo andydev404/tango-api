@@ -12,6 +12,7 @@ gem "devise"
 gem "devise_token_auth"
 gem "activestorage"
 gem "simple_command"
+gem "panko_serializer"
 
 group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw]

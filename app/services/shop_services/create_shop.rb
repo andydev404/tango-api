@@ -11,7 +11,7 @@ module ShopServices
 
     def call
       if Shop.exists?(slug: shop.slug)
-        errors.add(:slug, "Slug already exists")
+        errors.add(:slug, "already exists")
         return nil
       end
 
